@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Project Management App
 
 ## Entities
@@ -36,3 +37,6 @@ GET /projects/:projectId/tasks/:id
 POST /projects/:projectId/tasks
 PUT or PATCH /projects/:projectId/tasks/:id
 DELETE /projects/:projectId/tasks/:id
+=======
+# project-management-api
+>>>>>>> 2413922f990759794487bd82521e7a83774a4dc6
