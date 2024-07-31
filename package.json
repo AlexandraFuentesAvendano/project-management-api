@@ -4,12 +4,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsnd --inspect -- src/index.ts",
+    "start": "tsnd src/index.ts",
     "db:reset": "psql -d project_management < src/db/migrations/create.sql && psql -d project_management < src/db/seed.sql"
   },
   "author": "",
   "license": "ISC",
   "keywords": [],
-  "description": "",
+  "description": "id PK\r title\r description\r created_at",
   "dependencies": {
     "express": "^4.19.2",
     "pg": "^8.12.0"
